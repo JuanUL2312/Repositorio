@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Índice Interactivo de Videojuegos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <h1>🎮 Índice Interactivo de Videojuegos</h1>
+        <p>Explora el mundo de los videojuegos por categorías</p>
+    </header>
+
+    <div class="container">
+        <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" placeholder="Buscar videojuegos o categorías...">
+        </div>
+
+        <div class="categories" id="categories">
+            <!-- Categorías se generarán con JS -->
+        </div>
+
+        <div class="games-grid hidden" id="gamesGrid">
+            <!-- Juegos se generarán con JS -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
